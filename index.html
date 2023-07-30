@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Css Snippet Cheatsheet</title>
+    <link rel="stylesheet" href="./Assets/reset.css" />
+    <link rel="stylesheet" href="./Assets/style.css" />
+ </head>
+
+ <body>
+    <header>
+     <h1><Strong>Css Snippet Cheatsheet</Strong></h1>
+    
+     <h3>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</h3>
+    </header>
+ </body>
+ 
+ <main>
+    <section class="card">
+        <header>Flexbox Row</header>
+         <div>
+            .row {
+                display: Flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+         </div>
+    <section class="card"></section>
+        <header>Flexbox Column</header>
+         <div>
+            .column {
+                display: flex;
+                flex-direction: column;
+            }
+        </div>
+    <section class="card"></section>
+        <header>CSS Grid Layout</header>
+         <div>
+            .grid {
+                display: grid;
+                width: 100%;
+                grid-template-column: repeat (12,1fr);
+            }
+         </div>
+    <section class="card"></section>
+        <header>Linear Gradients</header>
+         <div>
+            .linear-gradient-background {
+                background-image: linear-gradient (rgba(232, 102 , 236, 0, 3) 0%,
+                rgba(232, 102, 236, 0, 6) 100%);
+            }
+         </div>
+    <section class="card"></section>
+        <header>Box Transition Glow</header>
+         <div>
+            .code-card .card-header {
+                border-radius: 8px;
+                transition: all 0.5s ease-in-out;
+            }
+         </div>
+    <section class="card"></section>
+        <header>Overlay Card with Title</header>
+         <div>
+            .card-header {
+                position: relative;
+                margin-top: -20px;
+            }
+         </div>
+
+    </section>
+ </main>
+
+
+
+
+
+</html>
+ 
