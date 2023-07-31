@@ -1,52 +1,65 @@
 :root {
  --dark: rgb(40, 41, 48);
  --white: white;
+ --blue: rgb(48, 105, 212);
 }
 
 body {
-    
+    font-size: 120%;
    margin: auto;
    background-color: rgb(40, 41, 48);
 }
 
 header{
     text-align: center;
-    color: rgb(48, 105, 212);
+    color: var(--blue);
 
 }
 .card header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 150%;
     text-align: center;
-    padding-bottom: 15px;
-    width: 295px;
-    height: 20px;
-    position: relative;
-    top: -20px;
     background-color: var(--dark);
+    padding-bottom: 15px;
+    width: 400px;
+    height: 20px;
+    
+    position: relative;
+    left: 25px;
+    top: -20px;
+
     border: 1px solid var(--white);
     border-style: solid;
     border-radius: 5px;
-    
+}
 
+h2 {
+    color: var(--blue);
+    text-align: left;
+    font-size: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .card {
     background-color: var(--dark);
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     border: 2px solid var(--white);
     border-style: dotted;
     border-radius: 5px;
-    margin: 10px 10px;
+    margin: 10px 10px auto;
     display: inline-block;
-    
-    
+}
 
-
-
-   
-
-    
-    
+div {
+    color: var(--white);
+    text-align: left;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 85%);
+    width: 400px;
+    height: 310px;
+    margin: auto;
+    border-radius: 10px;
+    ;
 }
