@@ -17,16 +17,18 @@ header{
 }
 .card header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 150%;
-    text-align: center;
+    font-size: 200%;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
     background-color: var(--dark);
     padding-bottom: 15px;
-    width: 400px;
-    height: 20px;
+    width: 450px;
+    height: 40px;
     
     position: relative;
     left: 25px;
-    top: -20px;
+    top: -30px;
 
     border: 1px solid var(--white);
     border-style: solid;
@@ -43,23 +45,26 @@ h2 {
 
 .card {
     background-color: var(--dark);
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     border: 2px solid var(--white);
     border-style: dotted;
     border-radius: 5px;
-    margin: 10px 10px auto;
+    margin: 50px;
     display: inline-block;
 }
 
-div {
+pre {
     color: var(--white);
-    text-align: left;
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 85%);
-    width: 400px;
-    height: 310px;
+    width: 450px;
+    height: 350px;
     margin: auto;
     border-radius: 10px;
-    ;
+}
+
+footer {
+    text-align: center;
+    color: var(--blue);
 }
